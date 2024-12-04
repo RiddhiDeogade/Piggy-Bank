@@ -1,0 +1,37 @@
+#navbar{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    padding-top: 0%;
+    background: #6f0936;
+}
+
+#nav, #nav1, #nav2 {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fdfafa;
+}
+
+#nav3 {
+    padding-left: 15px;
+    text-decoration: none;
+    color: #fcf9f9;
+}
+
+#nav3:hover {
+    text-decoration: underline;
+}
+
+#nav2:hover {
+    text-decoration: underline;
+}
+
+#nav1:hover {
+    text-decoration: underline;
+}
+
+#nav:hover {
+    text-decoration: underline;
+}

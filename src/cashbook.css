@@ -1,0 +1,17 @@
+#cashbookHeading{
+font-size: 50px;
+margin: 50px;
+margin-bottom: 30px;
+}
+.btn-outline-primary{
+    /* background-color: rgb(66, 22, 108);
+    color: aliceblue; */
+    font-size: 60px;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 50px;
+    text-align: center;
+}
+#cashbook1, #cashbook2, #cashbook3{
+    border-radius: 20px;
+}
