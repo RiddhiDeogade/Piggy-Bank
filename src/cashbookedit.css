@@ -1,0 +1,114 @@
+/* Container for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .title-container .MuiTextField-root {
+    width: 300px;
+  }
+  
+  .summary {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 40%;
+    box-shadow: 10px 10px 9px 10px rgba(19, 5, 5, 0.1);
+  }
+  
+ 
+  
+  .transaction-list {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0px 8px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-list h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .transaction-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 600px;
+  }
+  
+  .transaction-item .MuiTextField-root {
+    margin-right: 10px;
+  }
+  
+  .transaction-item .MuiGrid-container {
+    width: 100%;
+  }
+  
+  .transaction-item .MuiSvgIcon-root {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .transaction-item .MuiSvgIcon-root:hover {
+    transform: scale(1.1);
+  }
+  
+  #saveEdits {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #1e8848;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #saveEdits:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  #saveEdits:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  #delIcon{
+height: 50px;  }
+  
+  .MuiFab-root {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #1b3b75c1 !important;
+    color: white !important;
+  }
+  
+  .MuiFab-root:hover {
+    background-color: #0056b3 !important;
+  }
+  
+  .snackbar {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  

@@ -1,0 +1,170 @@
+/* General Body Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Title Styling */
+#main_title {
+  font-family: 'Times New Roman', Times, serif;
+  color: #5a0277;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Button Styling */
+#r {
+  background-color: #8a3bca;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#r:hover {
+  background-color: #5f42aa; /* Hover effect */
+}
+
+/* Grid Styling */
+.grid-container {
+  margin: 20px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid-item {
+  flex: 1 1 calc(50% - 40px); /* Two columns with spacing */
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.grid-item p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Footer Styling */
+.footer {
+  margin-top: 40px;
+}
+
+.footer-content {
+  font-size: 0.9rem;
+  background-color: #55105e;
+  color: #fff;
+  box-shadow: 0 -3px 6px rgba(52, 51, 51, 0.1);
+  padding: 20px;
+}
+
+#leftmost,
+#middlemost,
+#rightmost {
+  margin-top: 20px;
+}
+
+#leftmost {
+  margin-left: 80px;
+}
+
+#middlemost {
+  margin-left: 50px;
+}
+
+#quicklinks {
+  color: #f5f1f1;
+  list-style: none;
+  padding: 0;
+}
+
+#quicklinks li {
+  margin: 5px 0;
+}
+
+#quicklinks a {
+  color: #f5f1f1;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#quicklinks a:hover {
+  color: #ccc;
+}
+
+#rightmost {
+  margin-left: auto;
+  margin-right: 80px;
+}
+
+/* Footer Bottom Text */
+.footer-content p {
+  margin: 0;
+  text-align: center;
+}
+
+.footer-content hr {
+  border-color: #ccc;
+  margin: 15px 0;
+}
+/* Center the container in the viewport */
+.typewriter-container {
+  display: flex;
+  justify-content: center; /* Horizontally centers */
+  align-items: center; /* Vertically centers */
+  /* height: 100vh; Full viewport height */
+  padding-top: 40px;
+  padding-bottom: 0px;
+  background-color:RGB(229, 229, 246);
+}
+
+/* Typewriter effect */
+.typewriter {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  color: #55105e;
+  white-space: nowrap; /* Prevents text wrapping */
+  overflow: hidden; /* Hides overflowing text */
+  border-right: 3px solid #55105e; /* Simulates the cursor */
+  width: 0; /* Initially set width to 0 for typing effect */
+  animation: typing 6s steps(50, end) infinite, blink 1s step-end infinite;
+}
+
+/* Typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60%; 
+  }
+}
+
+/* Blinking cursor animation */
+@keyframes blink {
+  50% {
+    border-right-color: transparent; /* Hide cursor halfway through */
+  }
+  100% {
+    border-right-color: #55105e; /* Show cursor again */
+  }
+}
+
+#desc{
+  margin-top: 50px;
+  font-size: 19px;
+}
+
+#ss{
+  margin-top: 60px;
+  margin-left: 50px;
+  height: 350px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

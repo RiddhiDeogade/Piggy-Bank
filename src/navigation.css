@@ -1,0 +1,132 @@
+#navbar{
+    margin: 0px;
+    padding: 0px;
+}
+
+#title{
+    color: #6f0936;
+    color: #6b1657;
+
+}
+#header {
+    padding-top: 0%;
+    background-image: url('C:\Users\LENOVO\Desktop\RRR\PJ1\piggy-bank\src\assets\login-bg.png'); /* Replace with your image path */
+    color: #6f0936;
+    color: #6a1b58;
+}
+
+#nav_home{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fdfafa;
+    color: #6f0936;
+    color: #6a1b58;
+    font-weight: bold;
+}
+#navLogin{
+  margin-top:25px;
+  color: #310519;
+padding: 5px;
+font-size: medium;
+}
+#nav_contact, #nav_mc{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fcf9f9;
+    color: #6f0936;
+font-weight: bold;
+}
+
+#nav_contact:hover {
+    text-decoration: underline;
+}
+
+#navLogin:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#nav_mc:hover {
+    text-decoration: underline;
+}
+
+#nav_home:hover {
+    text-decoration: underline;
+}
+
+#ProfileListContainer{
+  border-radius: 9px;
+  /* border-bottom-left-radius: 6px; */
+  
+  padding: 8px;
+}
+
+#logoutButton{
+  color: #0e3d04;
+
+}
+#ProfileList{
+font-size: medium;
+}
+
+.profile-icon {
+   
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    margin-right: 15px;
+    color: #61103f; /* Set icon color */
+    cursor: pointer;
+}
+.profile-icon:hover {
+    color: #d5ccd0; /* Add hover effect */
+}
+#nameee{
+  background-image: url('C:\Users\LENOVO\Desktop\RRR\PJ1\piggy-bank\src\assets\login-bg.png');
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  padding: 11px;
+  margin-top: 80px;
+
+}
+#profile{
+  margin: 10px;
+}
+#drawer-list{
+  padding:6px;
+}
+  @media (max-width: 992px) {
+    #header {
+      flex-direction: row; /* Keep the layout horizontal up to this size */
+    }
+  
+    /* Ensure the collapsible menu and profile icon don't overlap */
+    .profile-icon {
+      margin-right: 10px;
+    }
+  }
+
+@media (max-width: 768px) {
+    #header {
+      flex-direction: column; /* Stack logo, title, and profile icon vertically on smaller screens */
+      text-align: center; /* Center the text and icon */
+    }
+  
+    .profile-icon {
+      margin-top: 10px; /* Add space between the logo/title and profile icon */
+    }
+  
+    /* Fix collapsible menu */
+    .navbar-collapse {
+      text-align: center; /* Center items in the collapse */
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .profile-icon {
+      font-size: 30px; /* Adjust icon size for smaller screens */
+    }
+  }
+  
