@@ -5,9 +5,11 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import Snackbar from "@mui/material/Snackbar";
 import "./cashbooklist.css";
 import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid";
+// import Grid from "@mui/material/Grid";
 import EditIcon from '@mui/icons-material/Edit';
 import { useNavigate } from 'react-router-dom';
+import Grid from '@mui/material/Grid2';
+
 
 const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "http://localhost:8080/api/users";
 
@@ -78,7 +80,7 @@ function CashBookList() {
         {cashbooks.map((cashbook) => (
           <Box id="eachBox" component="section" sx={{ p: 1 }} key={cashbook.id}>
             <p id="date_" className="cashbook-date">
-              Created on: {new Date(cashbook.dateCreated).toLocaleDateString()}
+            Created on: {cashbook.dateCreated ? cashbook.dateCreated.join("-") : "N/A"}
             </p>
             <div id="inBox" className="cashbook-item">
               <div className="cashbook-header">
@@ -86,7 +88,7 @@ function CashBookList() {
                 <Fab
                   color="secondary"
                   size="small"
-                  onClick={() => edit_Cashbook(cashbook.id)} // Pass cashbook.id to the function
+                  onClick={() => edit_Cashbook(cashbook.id)} 
                 >
                   <EditIcon />
                 </Fab>
@@ -100,14 +102,14 @@ function CashBookList() {
               </div>
 
               <div className="transactions">
-                <Grid container spacing={2}>
+                <Grid container spacing={0}>
                   <Grid item xs={9}>
                     <h3 className="cr">Credits:</h3>
                     {cashbook.credits.map((credit, index) => (
                       <p className="Colu" key={index}>{`${credit.title}: ${credit.amount}`}</p>
                     ))}
                   </Grid>
-                  <Grid item xs={8}>
+                  <Grid item xs={0}>
                     <h3 className="cr">Debits:</h3>
                     {cashbook.debits.map((debit, index) => (
                       <p className="Colu" key={index}>{`${debit.title}: ${debit.amount}`}</p>

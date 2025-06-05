@@ -1,6 +1,7 @@
 /* Overall container */
 .cashbook-list {
   padding: 20px;
+  padding-left: 100px;
   background-color: #f5f5f5;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -8,7 +9,7 @@
 
 /* Individual cashbook item */
 .cashbook-item {
-  background-color: #fff;
+  background-color: #f5f5f5;
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -25,6 +26,8 @@
 
 .cashbook-header h2 {
   font-size: 1.5rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+/* margin-bottom: 10px; */
   margin: 0;
   font-weight: 600;
 }
@@ -36,7 +39,7 @@
 
 .transactions h3 {
   font-size: 1.2rem;
-  color: #333;
+  color: #716d6d;
   margin-bottom: 5px;
 }
 
@@ -48,8 +51,8 @@
 
 .transactions p {
   margin: 5px 0;
-  font-size: 1rem;
-  color: #555;
+  font-size: 17px;
+  color: #100404;
     width: 45%; /* To make it more responsive */
   }
   
@@ -77,20 +80,35 @@
     }
   }
   #eachBox{    
-    width:400px ;
+    width:480px ;
   }
   .cr{
     text-align: left;
+    width: 200px;
+
   }
+ 
   .Colu{
-    width: 100px;
+    width: 150px;
+    color: rgb(20, 14, 25);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
   }
   #History{
-    margin: 10px;
-    margin-left: 20px;
+    /* margin: 10px;
+    margin-left: 20px; */
+    padding: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #100f0f;
+    /* display: flex; */
+    background-color:  #f5f5f5;
   }
   #inBox{
-    background-image: url('C:\Users\LENOVO\Desktop\RRR\PJ1\piggy-bank\src\assets\images (3).jpg');
+    background-image: url('./assets/images_3.jpg');
+     
+     /* background-color: rgb(238, 230, 217); */
+    
   }
   #date_{
     text-align: left;

@@ -36,8 +36,8 @@ function Home() {
     </div>
 {/* <Spline scene="https://prod.spline.design/0eHI1HUAnuo2GeRo/scene.splinecode" /> */}
 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                <Grid size={6}>
-               <img id='ss' src={ss}/>
+                <Grid size={7}>
+               <img src={ss} id='ss'/>
                 </Grid>
 
                 <Grid size={4}>

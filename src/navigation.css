@@ -1,6 +1,7 @@
 #navbar{
     margin: 0px;
     padding: 0px;
+    
 }
 
 #title{
@@ -10,7 +11,7 @@
 }
 #header {
     padding-top: 0%;
-    background-image: url('C:\Users\LENOVO\Desktop\RRR\PJ1\piggy-bank\src\assets\login-bg.png'); /* Replace with your image path */
+    background-image: url('./assets/login-bg.png'); /* Replace with your image path */
     color: #6f0936;
     color: #6a1b58;
 }
@@ -83,7 +84,7 @@ font-size: medium;
     color: #d5ccd0; /* Add hover effect */
 }
 #nameee{
-  background-image: url('C:\Users\LENOVO\Desktop\RRR\PJ1\piggy-bank\src\assets\login-bg.png');
+  background-image: url('./assets/login-bg.png');
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
   padding: 11px;

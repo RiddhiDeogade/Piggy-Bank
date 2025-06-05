@@ -136,8 +136,8 @@ function CashBookAdd() {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
-        <button onClick={handleCreateCashbook} disabled={!title.trim()}>
-          CREATE
+        <button id='create-btn' onClick={handleCreateCashbook} disabled={!title.trim()}>
+         &#x2714;
         </button>
       </div>
 

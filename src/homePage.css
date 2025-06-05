@@ -6,14 +6,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #f5f7fa; */
-    /* background-color: rgb(185, 212, 226); */
+  
    
 }
-.login-container {
-    /* background-image: url('C:\Users\LENOVO\Desktop\RRR\Piggy Bank\piggy-bank\src\assets\bg for login.png'); Replace with your image path */
-    /* background-repeat: repeat; */
-    
+.login-container {  
     width: 100%;
     max-width: 400px;
     margin: 100px;
@@ -21,7 +17,6 @@
     border: 1px solid #f4dbf4;
     border-radius: 10px;
     background-color: #ded0f8;
-    /* background-image: url('C:\Users\LENOVO\Desktop\RRR\Piggy Bank\piggy-bank\src\assets\download (1).jpg'); */
     box-shadow: 0 12px 33px rgba(0,0,0,0.1);
     color: #030101;
 }
