@@ -1,18 +1,36 @@
 {
   "files": {
-    "main.css": "/Piggy-Bank/static/css/main.bc35fc13.css",
-    "main.js": "/Piggy-Bank/static/js/main.8e6b7a0c.js",
+    "main.css": "/Piggy-Bank/static/css/main.396e7ea9.css",
+    "main.js": "/Piggy-Bank/static/js/main.0c08c837.js",
+    "static/js/208.cae526b8.chunk.js": "/Piggy-Bank/static/js/208.cae526b8.chunk.js",
+    "static/js/293.d8340420.chunk.js": "/Piggy-Bank/static/js/293.d8340420.chunk.js",
+    "static/js/917.87499615.chunk.js": "/Piggy-Bank/static/js/917.87499615.chunk.js",
+    "static/js/516.d5dc97ca.chunk.js": "/Piggy-Bank/static/js/516.d5dc97ca.chunk.js",
+    "static/js/519.3a74a71c.chunk.js": "/Piggy-Bank/static/js/519.3a74a71c.chunk.js",
+    "static/js/946.ce4ff268.chunk.js": "/Piggy-Bank/static/js/946.ce4ff268.chunk.js",
+    "static/js/160.41054d5f.chunk.js": "/Piggy-Bank/static/js/160.41054d5f.chunk.js",
+    "static/js/23.34ee53c0.chunk.js": "/Piggy-Bank/static/js/23.34ee53c0.chunk.js",
     "static/js/453.6ec943a4.chunk.js": "/Piggy-Bank/static/js/453.6ec943a4.chunk.js",
+    "static/media/login-bg.png": "/Piggy-Bank/static/media/login-bg.c2432e4c124756ebd20c.png",
+    "static/media/ss.png": "/Piggy-Bank/static/media/ss.7e21dc11356c219b7f9a.png",
     "static/media/bootstrap-icons.woff?": "/Piggy-Bank/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/Piggy-Bank/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/logo_piggy_bank.png": "/Piggy-Bank/static/media/logo_piggy_bank.8fdcc57c9f33514fed7a.png",
     "index.html": "/Piggy-Bank/index.html",
-    "main.bc35fc13.css.map": "/Piggy-Bank/static/css/main.bc35fc13.css.map",
-    "main.8e6b7a0c.js.map": "/Piggy-Bank/static/js/main.8e6b7a0c.js.map",
+    "main.396e7ea9.css.map": "/Piggy-Bank/static/css/main.396e7ea9.css.map",
+    "main.0c08c837.js.map": "/Piggy-Bank/static/js/main.0c08c837.js.map",
+    "208.cae526b8.chunk.js.map": "/Piggy-Bank/static/js/208.cae526b8.chunk.js.map",
+    "293.d8340420.chunk.js.map": "/Piggy-Bank/static/js/293.d8340420.chunk.js.map",
+    "917.87499615.chunk.js.map": "/Piggy-Bank/static/js/917.87499615.chunk.js.map",
+    "516.d5dc97ca.chunk.js.map": "/Piggy-Bank/static/js/516.d5dc97ca.chunk.js.map",
+    "519.3a74a71c.chunk.js.map": "/Piggy-Bank/static/js/519.3a74a71c.chunk.js.map",
+    "946.ce4ff268.chunk.js.map": "/Piggy-Bank/static/js/946.ce4ff268.chunk.js.map",
+    "160.41054d5f.chunk.js.map": "/Piggy-Bank/static/js/160.41054d5f.chunk.js.map",
+    "23.34ee53c0.chunk.js.map": "/Piggy-Bank/static/js/23.34ee53c0.chunk.js.map",
     "453.6ec943a4.chunk.js.map": "/Piggy-Bank/static/js/453.6ec943a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc35fc13.css",
-    "static/js/main.8e6b7a0c.js"
+    "static/css/main.396e7ea9.css",
+    "static/js/main.0c08c837.js"
   ]
 }
